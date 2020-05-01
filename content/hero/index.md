@@ -1,8 +1,6 @@
 ---
-title: 'Hi, my name is'
-name: 'Shannon Ng'
-subtitle: 'I build things for the web.'
+title: 'Hello world!'
+name: 'I’m Shannon Ng'
+subtitle: 'Designer based in New York City.'
 buttonText: 'Get In Touch'
 ---
-
-I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.
