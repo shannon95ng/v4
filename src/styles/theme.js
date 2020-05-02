@@ -1,7 +1,7 @@
 import { hex2rgba } from '@utils';
 
 const ACCENT = '#64ffda';
-const DARK_BG = '#020c1b';
+const DARK_BG = '#066353';
 const BG = '#FFFFFF';
 
 const theme = {
@@ -21,8 +21,8 @@ const theme = {
 
   fonts: {
     Calibre:
-      'Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif',
-    SFMono: 'SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace',
+      'Maison Neue, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif',
+    SFMono: 'Maison Neue, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace',
   },
 
   fontSizes: {

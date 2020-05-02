@@ -1,10 +1,10 @@
 ---
-date: '2018-05-14'
-title: 'Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+date: '2020-05-01'
+title: 'UI/UX Designer'
+company: 'Barstool Sports'
+location: 'NYC, MA'
+range: 'Sep 2019 - Present'
+url: 'https://www.barstoolsports.com/'
 ---
 
 - Write modern, performant, maintainable code for a diverse array of client and internal projects

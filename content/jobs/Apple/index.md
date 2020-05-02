@@ -1,5 +1,5 @@
 ---
-date: '2017-12-21'
+date: '1970-12-21'
 title: 'UI Engineer Co-op'
 company: 'Apple'
 location: 'Cupertino, CA'

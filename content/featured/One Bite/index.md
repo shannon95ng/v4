@@ -1,13 +1,10 @@
 ---
 date: '3'
-title: 'OctoProfile'
-cover: './octoprofile.png'
-github: 'https://github.com/bchiang7/octoprofile'
-external: 'https://octoprofile.now.sh'
+title: 'One Bite'
+cover: './ob.png'
+github:
+external: 'https://onebite.app'
 tech:
-  - Next.js
-  - Chart.js
-  - GitHub API
 showInProjects: true
 ---
 
