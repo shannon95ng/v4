@@ -10,9 +10,6 @@ const StyledContainer = styled(Section)`
   text-align: center;
   max-width: 600px;
   margin: 0 auto 100px;
-  a {
-    ${mixins.inlineLink};
-  }
 `;
 const StyledHeading = styled(Heading)`
   display: block;
