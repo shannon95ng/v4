@@ -56,7 +56,7 @@ const StyledTable = styled.table`
     }
     &.title {
       padding-top: 15px;
-      color: ${colors.lightestSlate};
+      color: ${colors.tertiaryText};
       font-size: ${fontSizes.xl};
       font-weight: 700;
     }

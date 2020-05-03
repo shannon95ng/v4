@@ -35,7 +35,7 @@ const StyledLabel = styled.h4`
 const StyledProjectName = styled.h5`
   font-size: 28px;
   margin: 0 0 20px;
-  color: ${colors.lightestSlate};
+  color: ${colors.tertiaryText};
   ${media.tablet`font-size: 24px;`};
   ${media.thone`color: ${colors.white};`};
   a {
@@ -48,7 +48,7 @@ const StyledDescription = styled.div`
   z-index: 2;
   padding: 25px;
   background-color: ${colors.lightNavy};
-  color: ${colors.lightSlate};
+  color: ${colors.secondaryText};
   font-size: ${fontSizes.lg};
   border-radius: ${theme.borderRadius};
   ${media.thone`
@@ -86,7 +86,7 @@ const StyledTechList = styled.ul`
       margin-right: 0;
     }
     ${media.thone`
-      color: ${colors.lightestSlate};
+      color: ${colors.tertiaryText};
       margin-right: 10px;
     `};
   }
@@ -97,7 +97,7 @@ const StyledLinkWrapper = styled.div`
   position: relative;
   margin-top: 10px;
   margin-left: -10px;
-  color: ${colors.lightestSlate};
+  color: ${colors.tertiaryText};
   a {
     padding: 10px;
     svg {

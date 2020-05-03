@@ -42,7 +42,7 @@ const NavLinks = styled.nav`
   width: 100%;
   flex-direction: column;
   text-align: center;
-  color: ${colors.lightestSlate};
+  color: ${colors.tertiaryText};
 `;
 const NavList = styled.ol`
   padding: 0;

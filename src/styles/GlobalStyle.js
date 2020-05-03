@@ -51,7 +51,7 @@ const GlobalStyle = createGlobalStyle`
 
   ::selection {
     background-color: ${colors.primaryText};
-    color: ${colors.lightestSlate};
+    color: ${colors.tertiaryText};
   }
 
   #root {
@@ -68,7 +68,7 @@ const GlobalStyle = createGlobalStyle`
   h5,
   h6 {
     font-weight: 600;
-    color: ${colors.lightestSlate};
+    color: ${colors.tertiaryText};
     margin: 0 0 10px 0;
   }
 

@@ -36,7 +36,7 @@ const StyledNav = styled.nav`
   ${mixins.flexBetween};
   position: relative;
   width: 100%;
-  color: ${colors.lightestSlate};
+  color: ${colors.tertiaryText};
   font-family: ${fonts.SFMono};
   counter-reset: item 0;
   z-index: 12;

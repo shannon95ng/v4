@@ -31,7 +31,7 @@ const StyledTagsContainer = styled(Main)`
         font-size: inherit;
         margin: 0;
         a {
-          color: ${colors.lightSlate};
+          color: ${colors.secondaryText};
         }
       }
       .subtitle {
