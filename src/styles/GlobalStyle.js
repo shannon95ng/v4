@@ -29,7 +29,7 @@ const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     background-color: ${colors.background};
-    color: ${colors.slate};
+    color: ${colors.primaryText};
     line-height: 1.3;
     font-family: ${fonts.Calibre};
     font-size: ${fontSizes.xl};
@@ -50,7 +50,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    background-color: ${colors.slate};
+    background-color: ${colors.primaryText};
     color: ${colors.lightestSlate};
   }
 

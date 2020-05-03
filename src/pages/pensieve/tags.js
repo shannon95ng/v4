@@ -23,7 +23,7 @@ const StyledTagsContainer = styled(Main)`
         ${mixins.inlineLink};
         color: ${colors.lightSlate};
         .count {
-          color: ${colors.slate};
+          color: ${colors.primaryText};
           font-family: ${fonts.SFMono};
           font-size: ${fontSizes.md};
         }

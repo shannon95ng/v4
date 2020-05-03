@@ -78,7 +78,7 @@ const StyledTechList = styled.ul`
   li {
     font-family: ${fonts.SFMono};
     font-size: ${fontSizes.smish};
-    color: ${colors.slate};
+    color: ${colors.primaryText};
     margin-right: ${theme.margin};
     margin-bottom: 7px;
     white-space: nowrap;

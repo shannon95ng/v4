@@ -72,7 +72,7 @@ const StyledTabButton = styled.button`
   white-space: nowrap;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.smish};
-  color: ${props => (props.isActive ? colors.accent : colors.slate)};
+  color: ${props => (props.isActive ? colors.accent : colors.primaryText)};
   ${media.tablet`padding: 0 15px 2px;`};
   ${media.thone`
     ${mixins.flexCenter};

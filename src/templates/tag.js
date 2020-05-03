@@ -35,7 +35,7 @@ const StyledTagsContainer = styled(Main)`
         }
       }
       .subtitle {
-        color: ${colors.slate};
+        color: ${colors.primaryText};
         font-size: ${fontSizes.sm};
 
         .tag {
