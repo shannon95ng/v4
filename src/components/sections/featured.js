@@ -27,7 +27,7 @@ const StyledContent = styled.div`
 const StyledLabel = styled.h4`
   font-size: ${fontSizes.smish};
   font-weight: normal;
-  color: ${colors.green};
+  color: ${colors.accent};
   font-family: ${fonts.SFMono};
   margin-top: 10px;
   padding-top: 0;
