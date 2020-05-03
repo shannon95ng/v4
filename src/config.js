@@ -5,7 +5,7 @@ module.exports = {
   siteKeywords:
     'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
   // TODO: Write keywords later
-  siteUrl: 'https://brittanychiang.com',
+  siteUrl: 'https://shannonng.com',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
