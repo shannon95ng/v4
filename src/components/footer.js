@@ -66,8 +66,10 @@ const Footer = () => {
     forks: null,
   });
 
+  const enableGitHubData = false;
+
   useEffect(() => {
-    if (process.env.NODE_ENV !== 'production') {
+    if (!enableGitHubData && process.env.NODE_ENV !== 'production') {
       return;
     }
     fetch('https://api.github.com/repos/bchiang7/v4')
@@ -100,6 +102,15 @@ const Footer = () => {
             ))}
         </StyledSocialList>
       </StyledSocial>
+      <StyledMetadata tabindex="-1">
+        <StyledGitHubLink
+          href="https://github.com/shannon95ng/v4"
+          target="_blank"
+          rel="nofollow noopener noreferrer">
+          <div>Edited by Shannon</div>
+        </StyledGitHubLink>
+      </StyledMetadata>
+
       <StyledMetadata tabindex="-1">
         <StyledGitHubLink
           href="https://github.com/bchiang7/v4"

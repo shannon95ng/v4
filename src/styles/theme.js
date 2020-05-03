@@ -7,7 +7,7 @@ const theme = {
   colors: {
     splashBackground: BG,
     background: BG,
-    lightNavy: '#172a45',
+    highlightedBackground: hex2rgba('#0028DC', 0.9),
     lightestNavy: '#303C55',
     primaryText: '#222222',
     secondaryText: '#999999',

@@ -47,8 +47,8 @@ const StyledDescription = styled.div`
   position: relative;
   z-index: 2;
   padding: 25px;
-  background-color: ${colors.lightNavy};
-  color: ${colors.secondaryText};
+  background-color: ${colors.highlightedBackground};
+  color: ${colors.white};
   font-size: ${fontSizes.lg};
   border-radius: ${theme.borderRadius};
   ${media.thone`
@@ -63,7 +63,7 @@ const StyledDescription = styled.div`
     margin: 0;
   }
   a {
-    ${mixins.inlineLink};
+    ${mixins.alternateinlineLink};
   }
 `;
 const StyledTechList = styled.ul`

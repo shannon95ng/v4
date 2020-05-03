@@ -70,6 +70,41 @@ const mixins = {
     }
   `,
 
+  alternateinlineLink: css`
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    transition: ${theme.transition};
+    cursor: pointer;
+    color: ${colors.white};
+    font-style: italic;
+    &:hover,
+    &:focus,
+    &:active {
+      color: ${colors.white};
+      outline: 0;
+      &:after {
+        width: 100%;
+      }
+      & > * {
+        color: ${colors.white} !important;
+        transition: ${theme.transition};
+      }
+    }
+    &:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 1px;
+      position: relative;
+      bottom: 0.37em;
+      background-color: ${colors.white};
+      transition: ${theme.transition};
+      opacity: 0.5;
+    }
+  `,
+
   smallButton: css`
     color: #ffffff;
     background-color: #0028dc;
