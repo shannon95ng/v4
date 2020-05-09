@@ -7,6 +7,6 @@ range: 'Sep 2019 - Present'
 url: 'https://www.barstoolsports.com/'
 ---
 
-- Write modern, performant, maintainable code for a diverse array of client and internal projects
-- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, Wordpress, Prismic, and Netlify
-- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+- Designing new features and updates for both desktop and iOS products such as One Bite, Barstool Sports and Barstool Bets.
+- Redesigned the Barstool Sports Store website that generates estimately \$90mil in revenue.
+- Organizing Barstool Sports’ design system to maintain consistency and increase the design team’s efficiency.

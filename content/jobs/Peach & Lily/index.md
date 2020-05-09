@@ -7,8 +7,6 @@ range: 'Oct 2017 - Aug 2018'
 url: 'https://www.peachandlily.com//'
 ---
 
-- Created marketing assets from campaign ideation through design development.
-- Assistant to the CEO in print and digital content creation to promote brand identity.
-- Collaborated with senior designers in packaging design from conception to production.
-- Produced rich media content for social media platforms and newsletters.
-- Jointly managed Peach & Lily's online store with team members using Shopify.
+- Created graphic assets for multiple uses –eCommerce, video, social, print
+- Assisted with the senior designer in packaging design from conception to production.
+- Participated in the creation & launch of the namesake skincare collection.
