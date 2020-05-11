@@ -8,4 +8,4 @@ tech:
 showInProjects: true
 ---
 
-A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.
+One Bite, everybody knows the rules. Since the successful launch of the One Bite app, users are able to access pizza reviews in the browser. Total of 430+ and counting of Dave’s reviews complete with videos, scores and location.

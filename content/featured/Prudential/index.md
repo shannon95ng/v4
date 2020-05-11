@@ -1,15 +1,10 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
-cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+title: 'Prudential: Caregivers'
+cover: 'prudential.png'
+github:
+external: 'https://qz.com/work/1547828/how-to-manage-your-career-while-caring-for-a-loved-one/'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
 showInProjects: true
 ---
 
