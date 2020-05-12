@@ -37,7 +37,6 @@ const StyledProjectName = styled.h5`
   margin: 0 0 20px;
   color: ${colors.tertiaryText};
   ${media.tablet`font-size: 24px;`};
-  ${media.thone`color: ${colors.white};`};
   a {
     ${media.tablet`display: block;`};
   }
@@ -52,6 +51,7 @@ const StyledDescription = styled.div`
   font-size: ${fontSizes.lg};
   border-radius: ${theme.borderRadius};
   ${media.thone`
+    color: ${colors.tertiaryText}
     background-color: transparent;
     padding: 20px 0;
     box-shadow: none;
