@@ -1,10 +1,9 @@
 module.exports = {
   siteTitle: 'Shannon Ng | Designer',
-  siteDescription: 'Shannon is a designer based in New York City.',
-  // TODO: Write a description later
+  siteDescription:
+    'Shannon is a designer based in New York City, specializing in interactive and web design.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  // TODO: Write keywords later
+    'Shannon Ng, Shannon, designer, product designer, UIUX designer, interactive designer, web designer, new york city designer',
   siteUrl: 'https://shannonng.com',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
