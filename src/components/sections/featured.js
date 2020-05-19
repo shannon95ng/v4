@@ -132,7 +132,7 @@ const StyledImgContainer = styled.a`
   ${media.tablet`height: 100%;`};
   ${media.thone`
     grid-column: 1 / -1;
-    opacity: 0.25;
+    opacity: 0.15;
   `};
   &:hover,
   &:focus {
@@ -197,7 +197,7 @@ const StyledProject = styled.div`
       ${media.tablet`height: 100%;`};
       ${media.thone`
         grid-column: 1 / -1;
-        opacity: 0.25;
+        opacity: 0.15;
       `};
     }
   }

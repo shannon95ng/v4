@@ -50,8 +50,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    background-color: ${colors.primaryText};
-    color: ${colors.tertiaryText};
+    background-color: ${colors.white};
+    color: ${colors.accent};
   }
 
   #root {
