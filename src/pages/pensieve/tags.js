@@ -24,7 +24,7 @@ const StyledTagsContainer = styled(Main)`
         color: ${colors.secondaryText};
         .count {
           color: ${colors.primaryText};
-          font-family: ${fonts.SFMono};
+          font-family: ${fonts.MaisonNeue};
           font-size: ${fontSizes.md};
         }
       }

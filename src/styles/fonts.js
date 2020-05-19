@@ -44,7 +44,100 @@ import SFMonoSemiboldItalicTTF from '@fonts/SFMono/SFMono-SemiboldItalic.ttf';
 import SFMonoSemiboldItalicWOFF from '@fonts/SFMono/SFMono-SemiboldItalic.woff';
 import SFMonoSemiboldItalicWOFF2 from '@fonts/SFMono/SFMono-SemiboldItalic.woff2';
 
+import MaisonNeueBoldTTF from '@fonts/MaisonNeue/MaisonNeue-Bold.ttf';
+import MaisonNeueBoldWOFF from '@fonts/MaisonNeue/MaisonNeue-Bold.woff';
+import MaisonNeueBoldWOFF2 from '@fonts/MaisonNeue/MaisonNeue-Bold.woff2';
+import MaisonNeueBoldItalicTTF from '@fonts/MaisonNeue/MaisonNeue-BoldItalic.ttf';
+import MaisonNeueBoldItalicWOFF from '@fonts/MaisonNeue/MaisonNeue-BoldItalic.woff';
+import MaisonNeueBoldItalicWOFF2 from '@fonts/MaisonNeue/MaisonNeue-BoldItalic.woff2';
+import MaisonNeueBookTTF from '@fonts/MaisonNeue/MaisonNeue-Book.ttf';
+import MaisonNeueBookWOFF from '@fonts/MaisonNeue/MaisonNeue-Book.woff';
+import MaisonNeueBookWOFF2 from '@fonts/MaisonNeue/MaisonNeue-Book.woff2';
+import MaisonNeueBookItalicTTF from '@fonts/MaisonNeue/MaisonNeue-BookItalic.ttf';
+import MaisonNeueBookItalicWOFF from '@fonts/MaisonNeue/MaisonNeue-BookItalic.woff';
+import MaisonNeueBookItalicWOFF2 from '@fonts/MaisonNeue/MaisonNeue-BookItalic.woff2';
+import MaisonNeueDemiItalicTTF from '@fonts/MaisonNeue/MaisonNeue-DemiItalic.ttf';
+import MaisonNeueDemiItalicWOFF from '@fonts/MaisonNeue/MaisonNeue-DemiItalic.woff';
+import MaisonNeueDemiItalicWOFF2 from '@fonts/MaisonNeue/MaisonNeue-DemiItalic.woff2';
+import MaisonNeueLightTTF from '@fonts/MaisonNeue/MaisonNeue-Light.ttf';
+import MaisonNeueLightWOFF from '@fonts/MaisonNeue/MaisonNeue-Light.woff';
+import MaisonNeueLightWOFF2 from '@fonts/MaisonNeue/MaisonNeue-Light.woff2';
+import MaisonNeueLightItalicTTF from '@fonts/MaisonNeue/MaisonNeue-LightItalic.ttf';
+import MaisonNeueLightItalicWOFF from '@fonts/MaisonNeue/MaisonNeue-LightItalic.woff';
+import MaisonNeueLightItalicWOFF2 from '@fonts/MaisonNeue/MaisonNeue-LightItalic.woff2';
+import MaisonNeueMediumTTF from '@fonts/MaisonNeue/MaisonNeue-Medium.ttf';
+import MaisonNeueMediumWOFF from '@fonts/MaisonNeue/MaisonNeue-Medium.woff';
+import MaisonNeueMediumWOFF2 from '@fonts/MaisonNeue/MaisonNeue-Medium.woff2';
+
 const FontFaces = css`
+  @font-face {
+    font-family: 'Maison Neue';
+    src: url(${MaisonNeueLightWOFF2}) format('woff2'), url(${MaisonNeueLightWOFF}) format('woff'),
+      url(${MaisonNeueLightTTF}) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Maison Neue';
+    src: url(${MaisonNeueLightItalicWOFF2}) format('woff2'),
+      url(${MaisonNeueLightItalicWOFF}) format('woff'),
+      url(${MaisonNeueLightItalicTTF}) format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Maison Neue';
+    src: url(${MaisonNeueBookWOFF2}) format('woff2'), url(${MaisonNeueBookWOFF}) format('woff'),
+      url(${MaisonNeueBookTTF}) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Maison Neue';
+    src: url(${MaisonNeueBookItalicWOFF2}) format('woff2'),
+      url(${MaisonNeueBookItalicWOFF}) format('woff'),
+      url(${MaisonNeueBookItalicTTF}) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Maison Neue';
+    src: url(${MaisonNeueMediumWOFF2}) format('woff2'), url(${MaisonNeueMediumWOFF}) format('woff'),
+      url(${MaisonNeueMediumTTF}) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Maison Neue';
+    src: url(${MaisonNeueDemiItalicWOFF2}) format('woff2'),
+      url(${MaisonNeueDemiItalicWOFF}) format('woff'),
+      url(${MaisonNeueDemiItalicTTF}) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Maison Neue';
+    src: url(${MaisonNeueBoldWOFF2}) format('woff2'), url(${MaisonNeueBoldWOFF}) format('woff'),
+      url(${MaisonNeueBoldTTF}) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Maison Neue';
+    src: url(${MaisonNeueBoldItalicWOFF2}) format('woff2'),
+      url(${MaisonNeueBoldItalicWOFF}) format('woff'),
+      url(${MaisonNeueBoldItalicTTF}) format('truetype');
+    font-weight: 600;
+    font-style: italic;
+  }
+
   @font-face {
     font-family: 'Calibre';
     src: url(${CalibreLightWOFF2}) format('woff2'), url(${CalibreLightWOFF}) format('woff'),

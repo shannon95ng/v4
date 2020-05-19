@@ -15,7 +15,7 @@ const StyledHeading = styled(Heading)`
   display: block;
   color: ${colors.accent};
   font-size: ${fontSizes.md};
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.MaisonNeue};
   font-weight: normal;
   margin-bottom: 20px;
   justify-content: center;

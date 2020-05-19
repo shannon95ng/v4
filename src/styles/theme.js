@@ -19,9 +19,11 @@ const theme = {
   },
 
   fonts: {
+    MaisonNeue:
+      'Maison Neue, Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif',
     Calibre:
-      'Maison Neue, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif',
-    SFMono: 'Maison Neue, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace',
+      'Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif',
+    SFMono: 'SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace',
   },
 
   fontSizes: {

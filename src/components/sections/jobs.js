@@ -70,7 +70,7 @@ const StyledTabButton = styled.button`
   border-left: 2px solid ${colors.lightestNavy};
   text-align: left;
   white-space: nowrap;
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.MaisonNeue};
   font-size: ${fontSizes.smish};
   color: ${props => (props.isActive ? colors.accent : colors.primaryText)};
   ${media.tablet`padding: 0 15px 2px;`};
@@ -144,7 +144,7 @@ const StyledCompany = styled.span`
   color: ${colors.accent};
 `;
 const StyledJobDetails = styled.h5`
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.MaisonNeue};
   font-size: ${fontSizes.smish};
   font-weight: normal;
   letter-spacing: 0.05em;
